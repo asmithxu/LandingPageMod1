@@ -1,0 +1,133 @@
+* {   
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    background-color: #ffffed;
+    color: #a52a2a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    margin-top:10px;
+    margin-bottom: 5px;;
+}
+
+h2 {
+    display: inline-block;
+    border:#a52a2a 3px solid;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-left:0;
+    margin-right:0;
+}
+
+#Rachel {
+    width: 100%;
+    height: 400px;
+    background-image: url(./assets/Racheal.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: -10 auto;
+}
+
+#welcome img {
+    width: 450px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10% ;
+    margin-right: 10% ;
+    line-height: 1.5;
+    max-width: 1000px;
+}
+
+#socials img {
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+    padding: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 1em;
+    }
+    #Rachel {
+        height: 200px;
+    }
+    #welcome img {
+        width: 200px;
+        height: 100px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    #about p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 13px;
+        margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    #socials img {
+        width: 20px;
+        height: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px; 
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    h2 {
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 1.5em;
+    }
+
+    #Rachel {
+        height: 300px;
+    }
+
+    #welcome img {
+        width: 300px;
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (min-width:750px) {
+    #welcome img {
+        width: 400px;
+        height: 200px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #Rachel {
+        height: 400px;
+    }
+
+    #about p {
+        font-size: 1em;
+}
+
+}
+
+@media only screen and (min-width:1300px) {
+    #Rachel {
+        height: 500px;
+    }
+}
